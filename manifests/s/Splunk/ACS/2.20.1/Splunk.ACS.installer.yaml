@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: Splunk.ACS
+PackageVersion: 2.20.1
+InstallerLocale: en-US
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- silent
+InstallerSwitches:
+  Silent: /S
+  SilentWithProgress: /S
+UpgradeBehavior: uninstallPrevious
+Commands:
+- acs
+ReleaseDate: 2025-10-01
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/splunk/acs-cli/releases/download/v2.20.1/acs_v2.20.1_windows_amd64_installer.exe
+  InstallerSha256: c3d9a3cfd37cc88b2eabe13460eb72481efb45850001772d18b3a46f6a894aa7
+ManifestType: installer
+ManifestVersion: 1.6.0
