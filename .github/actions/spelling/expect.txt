@@ -13,6 +13,7 @@ Joakim
 Kad
 Karan
 Levvie
+Linux
 LOCALAPPDATA
 mdanish
 Megamix
@@ -27,4 +28,5 @@ Tbot
 timezone
 Trenly
 Unassign
+vscode
 workflows
